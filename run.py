@@ -23,4 +23,4 @@ res = requests.post(backend, headers = header,
 pred = st.button(label='Predict')
 if pred:
     result = res.text
-    st.write(f"Prediction result is {result}")
+    st.write(f"Prediction result is {result}!!!")
